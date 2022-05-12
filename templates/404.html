@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Sorry! The page you are looking for is not available.
+{% endblock %}
+{% block content %}
+    <h4>Sorry! We could not find the page you are looking for.</h4>
+    <a href="{% url 'month_list' %}">Go to the homepage</a>
+{% endblock %}
